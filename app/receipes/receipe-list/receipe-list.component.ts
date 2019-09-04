@@ -9,6 +9,8 @@ export class ReceipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
     new Recipe('A Test Receipes','Description test','../recipe.jpg'),
+    new Recipe('A Test Receipes','Description test','../recipe.jpg'),
+    new Recipe('A Test Receipes','Description test','../recipe.jpg'),
     new Recipe('A Test Receipes','Description test','../recipe.jpg')
   ];
 
