@@ -4,11 +4,13 @@
         <button class="btn btn-success">
             New Recipe
         </button>
+        <hr>
     </div>
 </div>
     <div class="col-xs-12">
         <app-receipe-items
         *ngFor="let recipeEle of recipes"
         [recipe] ="recipeEle"
+        (recipeSelected)="onRecipeSelected(recipeEle)"
         ></app-receipe-items>
     </div>
